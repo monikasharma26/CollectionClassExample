@@ -35,6 +35,8 @@ countryList.add(1,"NY");
         HashMap<String,String > hasj1= new HashMap<>();
         hasj1.put("1","2323");
         hasj1.put("2","SSS");
+        hasj1.put(null,"test");
+        hasj1.put(null,null);
       for(Map.Entry<String, String> country : hasj1.entrySet())
       {
           System.out.println(country.getKey() + "-" + country.getValue());
