@@ -41,6 +41,8 @@ countryList.add(1,"NY");
       {
           System.out.println(country.getKey() + "-" + country.getValue());
       }
+        Hashtable<String,ArrayList<String>> st= new Hashtable<>();
+       //     st.put("1",("'tets' ,'te2'"));
 
     }
 }
