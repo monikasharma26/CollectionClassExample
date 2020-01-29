@@ -1,8 +1,6 @@
 package com.lambton;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class MyMainClass
 {
@@ -34,6 +32,13 @@ countryList.add(1,"NY");
         {
             System.out.println(s);
         }
+        HashMap<String,String > hasj1= new HashMap<>();
+        hasj1.put("1","2323");
+        hasj1.put("2","SSS");
+      for(Map.Entry<String, String> country : hasj1.entrySet())
+      {
+          System.out.println(country.getKey() + "-" + country.getValue());
+      }
 
     }
 }
